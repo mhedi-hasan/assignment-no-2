@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+   *{
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* header-section-start-here */
+    .navbar{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 100px;
+        margin-top: 20px;
+    }
+    .nav-name{
+        align-items: center;
+        gap: 12px;
+        display: flex;
+        /* border: 2px solid rgb(243, 0, 0); */
+    }
+    .navbar-name{
+        color: #131318;        
+        font-family: Mulish;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    
+    .span{        
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    .nav-menu{
+        display: flex;
+        /* border: 2px solid blue; */
+        align-items: center;
+        gap: 30px;
+    }
+    .nav-menu a{
+        text-decoration: none;
+        color: #424247;
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
+    .nav-menu .home{
+        color: #FF5400;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 19px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    /* header-section-end-here   */
+
+    /* main-section-start-here   */
+    /* banner-section-start */
+    .banner-section{
+        width: 1100px;
+        text-align: center;
+        /* padding: 0px 100px; */
+        margin: 10px auto;
+        margin-top: 40px;
+        height: 500px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+        , url('Images/Group 13\ \(1\)\ \(1\).png'); 
+}
+    /* main-section-end-here  */
+
+    /* footer-section-start-here  */
+
+    /* footer-section-end-here */
