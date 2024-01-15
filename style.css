@@ -60,17 +60,112 @@
     /* main-section-start-here   */
     /* banner-section-start */
     .banner-section{
-        width: 1100px;
+        /* width: 1100px; */
         text-align: center;
         /* padding: 0px 100px; */
-        margin: 10px auto;
+        margin: 10px 80px;
         margin-top: 40px;
-        height: 500px;
+        /* height: 500px; */
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
         , url('Images/Group 13\ \(1\)\ \(1\).png'); 
 }
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-sub-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px;        
+}
+.banner-item {
+    padding: 100px 10px;
+    color: white;
+}
+.banner-options {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px; 
+    margin-top: 10px;         
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30); 
+}
+.banner-options select{
+width: 170px;
+height: 48px;
+border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 17px;
+font-weight: 400;
+padding-left: 10px;
+}
+.banner-button {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fa-solid {
+    font-size: 17px;
+    padding-right: 10px;
+}
+    /* popular-section-start */
+    .popular-section{
+        display: flex;
+        margin: 20px 80px;
+        margin-top: 80px;
+    }
+    .popular-image img{
+        width: 470px;
+        height: 490px;
+        flex-shrink: 0;
+    }
+    .popular-content h1{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    /* .popular-message{
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 14px 0;
+        padding-right: 20px;
+    } */
+    .popular-content p{
+            color: rgba(19, 19, 24, 0.70);
+            font-family: Mulish;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            margin: 14px 0;
+            padding-right: 50px;
+    }
+    .popular-content ul li{
+        padding-left: 50px;
+    }
     /* main-section-end-here  */
 
     /* footer-section-start-here  */
