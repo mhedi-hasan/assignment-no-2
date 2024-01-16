@@ -13,7 +13,6 @@
         margin: 10px 100px;
         margin-top: 20px;
     }
-   
     .nav-name{
         align-items: center;
         gap: 12px;
@@ -100,9 +99,18 @@
     padding: 16px;
     align-items: flex-start;
     gap: 24px; 
+    border: none;
     margin-top: 10px;         
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30); 
+}
+.banner-options:hover{
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px rgb(247, 234, 234),
+    0.3em 0.3em 1em rgba(202, 18, 18, 0.6);
+    outline: none;
+    border: none;
 }
 .banner-options select{
 width: 170px;
@@ -127,6 +135,16 @@ padding-left: 10px;
     /* font-family: Mulish; */
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.banner-button:hover{
+    color: #FF5400;
+    background-color: #f8cbcb;
+}
+.last-button:hover{
+    color: #FF5400;
+    background-color: #f8cbcb;
 }
 .fa-solid {
     font-size: 17px;
@@ -462,7 +480,21 @@ padding-left: 10px;
         border: 2px solid #FFF;
         background: rgba(255, 255, 255, 0.80);        
         backdrop-filter: blur(2.5px);
+        transition: 1.5s;
+        cursor: pointer;
     }
+    .spical-offers:hover{
+            box-shadow:
+            inset 0 -3em 3em rgb(0 200 0 / 30%),
+            0 0 0 2px rgb(247, 234, 234),
+            0.3em 0.3em 1em rgba(202, 18, 18, 0.6);
+        }
+        .spical-offers-2:hover{
+            box-shadow:
+            inset 0 -3em 3em rgb(0 200 0 / 30%),
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgb(200 0 0 / 60%);
+        }
     .discount-image-2 i{
         color: #FF5400;
     }
@@ -501,6 +533,8 @@ padding-left: 10px;
         border: 2px solid #FFF;
         background: rgba(255, 255, 255, 0.80);        
         backdrop-filter: blur(2.5px);
+        transition: 1.5s;
+        cursor: pointer;
     }
     .spical-offers h3 {
         color: #131318;
@@ -543,6 +577,8 @@ padding-left: 10px;
         font-weight: 800;
         margin-top: 20px;
         margin: 10px 35%;
+        transition: 1.5s;
+        cursor: pointer;
     }
     /* Discounts-section-end */
     .list-content{
@@ -675,6 +711,12 @@ padding-left: 10px;
         /* font-family: Mulish; */
         font-size: 20px;
         font-weight: 800;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .Subscribe-button:hover{
+        color: #FF5400;
+        background-color: #f8cbcb;
     }
     .Subscribe-discount{
         width: 220px;
@@ -688,6 +730,12 @@ padding-left: 10px;
         position: absolute;
         bottom: 13.6%;
         left: 64.8%;
+        transition: 1.5s;
+        cursor: pointer;
+    }
+    .Subscribe-discount:hover{
+        
+        background-color: #4a4646;
     }
     .Subscribe-discount p{
         color: #FFF;
