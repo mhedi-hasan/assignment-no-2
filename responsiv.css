@@ -11,6 +11,7 @@
         flex-direction: column;
         align-content: flex-start;
         margin-top: 15px;
+        gap: 20px;
     }
     /* header-section-end-here   */
     /* main-section-start-here   */
@@ -56,8 +57,11 @@
     .spical-offers{
         bottom: 7%;
         left: 0%;
-        margin: 10px 20px;
-        width: 340px;
+        margin: 10px 25px;
+        width: 320px;
+    }
+    .popular-content h1 {
+        font-size: 35px;
     }
     .discount-image-2 img {
         width: 100%;
@@ -66,8 +70,9 @@
     .spical-offers-2{
         bottom: 7%;
         left: 0%;
-        margin: 10px 20px;
-        width: 340px;
+        margin: 10px 25px;
+        width: 320px;
+        display: block;
     }
     .last-button {
         margin: 10px 20%;
@@ -79,7 +84,8 @@
         flex-direction: column;
     }
     .service-offer-1, .service-offer-2, .service-offer-3 {
-        margin: 10px 20px;
+        margin: 10px 30px;
+        width: 380px;
     }
     .service-message p{
         padding: 10px 20px;
@@ -135,15 +141,20 @@
         padding: 20px 10px;
     }
     .banner-options select{
-        width: 300px;
+        width: 284px;
         height: 52px;
     }
     .banner-button{
-        width: 280px;
+        width: 220px;
         height: 52px;
+        display: block;
+        margin: 0 auto;
+    }
+    .discount-title h2{
+        font-size: 38px;
     }
     .news{
-        width: 300px;
+        width: 284px;
         height: 52px;
     }
     .banner-sub-title {
