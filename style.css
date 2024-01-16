@@ -320,9 +320,48 @@ padding-left: 10px;
     .discount-image {
         position: relative;
     }
+    .discount-image-2{
+        position: relative;
+    }
+    .spical-offers-2{
+        position: absolute; 
+        bottom: 20%;
+        left: 5%;
+        width: 550px;
+        padding: 30px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);        
+        backdrop-filter: blur(2.5px);
+    }
+    .discount-image-2 i{
+        color: #FF5400;
+    }
+    .spical-offers-2 h3 {
+        color: #131318;
+        /* font-family: Mulish; */
+        font-size: 24px;
+        font-weight: 800;
+        padding: 12px 0;
+}
+.spical-offers-2 p{
+    color: #5A5A5D;
+    /* font-family: Mulish;     */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.spical-offers-2 h4 {
+    color: #FF5400;
+    /* font-family: Mulish; */
+    font-size: 20px;
+    font-weight: 800;  
+    padding: 8px 0;    
+}
     .discount-image i{
         color: #FF5400;
     }
+    
     .spical-offers {
         position: absolute;
         bottom: 20%;
@@ -363,6 +402,19 @@ padding-left: 10px;
         font-size: 16px;
         font-weight: 400;
 }
+    .last-button{
+        border: none;
+        padding: 15px 30px;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        /* font-family: Mulish; */
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 20px;
+        margin: 10px 35%;
+    }
     /* Discounts-section-end */
     .list-content{
         padding-left: 25px;
