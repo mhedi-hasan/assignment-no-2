@@ -1,11 +1,31 @@
+    @media screen and (max-width:576px) {
+    
+    
     /* header-section-start-here */
-
     /* header-section-end-here   */
-
     /* main-section-start-here   */
-
+    /* Subscribe-section-start */
+    .Subscribe-section {
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+    .Subscribe-content{
+        margin-right: 0px;
+    }
+    .Subscribe-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Subscribe-discount{
+        left: 50.4%;
+        bottom: 10.6%;
+        transform: rotate(-24.628deg);
+    }
+    /* Subscribe-section-end */
     /* main-section-end-here  */
-
     /* footer-section-start-here  */
-
+    .footer-section{
+        padding: 50px 40px;
+    }
     /* footer-section-end-here */
+}
