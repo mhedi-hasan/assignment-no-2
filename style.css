@@ -208,6 +208,10 @@ padding-left: 10px;
         line-height: 26px;
         padding-top: 15px;
     }
+    /* .place-images img {
+        object-fit: cover;
+    } */
+    /* place-section-end */
     /* Service-section-start */
     .service-section {
         display: flex;
@@ -284,10 +288,82 @@ padding-left: 10px;
         border-radius: 10px;
     }
     /* Service-section-end */
-    /* .place-images img {
-        object-fit: cover;
-    } */
-    /* place-section-end */
+    /* Discounts-section-start */
+    .discounts-section {
+        margin: 20px 80px;
+        margin-top: 80px;
+    }
+    .discounts-section img{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .discount-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .discount-title h2 {
+        color: #131318;
+        text-align: center;
+        /* font-family: Mulish; */
+        font-size: 40px;        
+        font-weight: 800;
+    }
+    .discount-title p{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        /* font-family: Mulish */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-top: 10px;
+    }
+    .discount-image {
+        position: relative;
+    }
+    .discount-image i{
+        color: #FF5400;
+    }
+    .spical-offers {
+        position: absolute;
+        bottom: 20%;
+        left: 45%;
+        width: 550px;
+        padding: 30px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);        
+        backdrop-filter: blur(2.5px);
+    }
+    .spical-offers h3 {
+        color: #131318;
+        /* font-family: Mulish; */
+        font-size: 24px;
+        font-weight: 800;
+        padding: 12px 0;
+}
+.spical-offers p{
+    color: #5A5A5D;
+    /* font-family: Mulish;     */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.spical-offers h4 {
+    color: #FF5400;
+    /* font-family: Mulish; */
+    font-size: 20px;
+    font-weight: 800;  
+    padding: 8px 0;    
+}
+    .discount-ul {
+        display: flex;
+        gap:30px;
+        color: #5A5A5D;
+        /* font-family: Mulish; */
+        font-size: 16px;
+        font-weight: 400;
+}
+    /* Discounts-section-end */
     .list-content{
         padding-left: 25px;
     }
