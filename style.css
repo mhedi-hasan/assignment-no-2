@@ -180,18 +180,139 @@ padding-left: 10px;
         display: flex;
         
     }
-    .place-img-1 img{
+    .images-1{
+        position: relative;
+    }
+    .images-1 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .place-spical-1{
+        position: absolute;
+        bottom: 48%;
+        left: 37%;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+    }
+    .images-2{
+        position: relative;
+    }
+    .images-2 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .images-2{
+        position: relative;
+    }
+    .place-spical-2 {
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+        top: 40%;
+        left: 37%;
+    }
+    /* .place-img-2 img {
+        width: 100%px;
+    } */
+    .images-3 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .images-3 {
+        position: relative;
+    }
+    .place-spical-3 {
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+        top: 40%;
+        left: 33%;
+    }
+    .images-4 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .images-4 {
+        position: relative;
+    }
+    .place-spical-4 {
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+        top: 40%;
+        left: 30%;
+    }
+    .images-5 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .images-5 {
+        position: relative;
+    }
+    .place-spical-5 {
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+        top: 40%;
+        left: 30%;
+    }
+    .images-6 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .images-6 {
+        position: relative;
+    }
+    .place-spical-6 {
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+        top: 40%;
+        left: 30%;
+    }
+    .images-7 img{
+        width: 100%;
+        padding: 8px 7px;
+    }
+    .images-7 {
+        position: relative;
+    }
+    .place-spical-7 {
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;        
+        font-weight: 800;
+        top: 40%;
+        left: 38%;
+    }
+    
+    /* .place-img-2 img {
+        padding: 8px 7px;
+    } */
+    /* .place-img-3 img {
         width: 50%;
         padding: 8px 7px;
-    }
-    .place-img-2 img {
-        width: 37%;
-        padding: 8px 7px;
-    }
-    .place-img-3 img {
-        width: 50%;
-        padding: 8px 7px;
-    }
+    } */
     .place-title h2 {
         color: #131318;
         text-align: center;
@@ -227,6 +348,9 @@ padding-left: 10px;
         margin-top: 40px;
         
     }
+    .service-offers h3 {
+        padding: 7px 0;
+    }
     
     .service-message {
         text-align: center;
@@ -237,6 +361,9 @@ padding-left: 10px;
         /* font-family: Mulish; */
         font-size: 40px;
         font-weight: 800;
+    }
+    .service-offer-3 h3 {
+        padding: 7px 0;
     }
     .service-message p {
         color: rgba(19, 19, 24, 0.70);
@@ -432,6 +559,16 @@ padding-left: 10px;
         flex-shrink: 0;
         border-radius: 16px;
         background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .last-images{
+        position: relative;
+    }
+    .last-images-title{
+        color: white;
+        position: absolute;
+        bottom: 45%;
+        left: 25%;
+        text-align: center;
     }
     .last-content {
         padding-right: 30px;
