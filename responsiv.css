@@ -1,7 +1,17 @@
     @media screen and (max-width:576px) {
-    
-    
     /* header-section-start-here */
+    .navbar{
+        margin: 10px 20px;
+        flex-direction: column;
+    }
+    .nav-name{
+        padding: 0 30px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-content: flex-start;
+        margin-top: 15px;
+    }
     /* header-section-end-here   */
     /* main-section-start-here   */
     /* Subscribe-section-start */
@@ -17,11 +27,132 @@
         margin-top: 20px;
     }
     .Subscribe-discount{
-        left: 50.4%;
+        left: 41.4%;
         bottom: 10.6%;
         transform: rotate(-24.628deg);
     }
     /* Subscribe-section-end */
+    /* last-section-start */
+    .last-section{
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .last-images img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .last-images-title{
+        left: 17%;
+    }
+    /* last-section-end */
+    /* discounts-section-start */
+    .discounts-section{
+        margin: 20px 20px;
+    }
+    .discount-image img{
+        height: 620px;
+        width: 100%;
+    }
+    .spical-offers{
+        bottom: 7%;
+        left: 0%;
+        margin: 10px 20px;
+        width: 340px;
+    }
+    .discount-image-2 img {
+        width: 100%;
+        height: 620px;
+    }
+    .spical-offers-2{
+        bottom: 7%;
+        left: 0%;
+        margin: 10px 20px;
+        width: 340px;
+    }
+    .last-button {
+        margin: 10px 20%;
+    }
+    /* discounts-section-end */
+    /* service-offers-start */
+    .service-offers{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-offer-1, .service-offer-2, .service-offer-3 {
+        margin: 10px 20px;
+    }
+    .service-message p{
+        padding: 10px 20px;
+    }
+    /* service-offers-end */
+    /* place-section-start */
+    .place-section{
+        margin: 20px 20px;
+    }
+    .place-img-1, .place-img-2, .place-img-3{
+        flex-direction: column;
+    }
+    .images-5 img {
+        height: 250px;
+    }
+    .images-3 img{
+        height: 260px;
+    }
+    .images-7 img{
+        height: 240px;
+    }
+    .place-spical-7 {
+        left: 32%;
+    }
+    .images-1 img,.images-2 img{
+        height: 250px;
+    }
+    /* place-section-end */
+    /* popular-section-start */
+    .popular-section{
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .popular-image img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* popular-section-end */
+    /* banner-section-start */
+    .banner-section{
+        margin: 15px 20px;
+        background-size: 1000px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+        , url('Images/Group 13\ \(1\)\ \(1\).png'); 
+    }
+    .banner-options{
+        flex-direction: column;
+    }
+    .banner-item {
+        padding: 20px 10px;
+    }
+    .banner-options select{
+        width: 300px;
+        height: 52px;
+    }
+    .banner-button{
+        width: 280px;
+        height: 52px;
+    }
+    .news{
+        width: 300px;
+        height: 52px;
+    }
+    .banner-sub-title {
+        padding: 20px 10px;
+    }
+    .banner-title {
+        font-size: 55px;
+    }
+    /* banner-section-end */
     /* main-section-end-here  */
     /* footer-section-start-here  */
     .footer-section{

@@ -13,6 +13,7 @@
         margin: 10px 100px;
         margin-top: 20px;
     }
+   
     .nav-name{
         align-items: center;
         gap: 12px;
@@ -48,6 +49,7 @@
         /* font-family: Mulish; */
         font-size: 18px;
         font-weight: 400;
+        display: inline-block;
         text-decoration: none;
     }
     
