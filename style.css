@@ -25,14 +25,14 @@
     }
     .navbar-name{
         color: #131318;        
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 36px;
         font-weight: 800;
     }
     
     .span{        
         color: #FF5400;
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 36px;
         font-weight: 800;
     }
@@ -45,7 +45,7 @@
     .nav-menu a{
         text-decoration: none;
         color: #424247;
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 18px;
         font-weight: 400;
         text-decoration: none;
@@ -54,7 +54,7 @@
     .nav-menu .home{
         color: #FF5400;
         text-align: center;
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 19px;
         font-weight: 700;
         text-decoration: none;
@@ -77,13 +77,13 @@
 }
 .banner-title{
     color: #FFF;
-    font-family: Mulish;
-    font-size: 64px;
+    /* font-family: Mulish; */
+    font-size: 60px;
     font-weight: 800;
 }
 .banner-sub-title{
     color: #FFF;
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -108,7 +108,7 @@ height: 48px;
 border-radius: 8px;
 background: #FFF;
 color: rgba(19, 19, 24, 0.50);
-font-family: Mulish;
+/* font-family: Mulish; */
 font-size: 17px;
 font-weight: 400;
 padding-left: 10px;
@@ -122,7 +122,7 @@ padding-left: 10px;
     border: none;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-size: 16px;
     font-weight: 700;
 }
@@ -143,8 +143,8 @@ padding-left: 10px;
     }
     .popular-content h1{
         color: #131318;
-        font-family: Mulish;
-        font-size: 40px;
+        /* font-family: Mulish; */
+        font-size: 38px;
         font-weight: 800;
         padding-bottom: 14px;
     }
@@ -159,16 +159,210 @@ padding-left: 10px;
     } */
     .popular-content p{
             color: rgba(19, 19, 24, 0.70);
-            font-family: Mulish;
+            /* font-family: Mulish; */
             font-size: 16px;
             font-weight: 400;
             line-height: 26px;
             margin: 14px 0;
             padding-right: 50px;
     }
+    /* popular-section-end */
+    /* place-section-start */
+    .place-section {
+        margin: 20px 80px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .place-images{
+        margin-top: 35px;
+    }
+    .place-img-1,.place-img-2,.place-img-3{
+        display: flex;
+        
+    }
+    .place-img-1 img{
+        width: 50%;
+        padding: 8px 7px;
+    }
+    .place-img-2 img {
+        width: 37%;
+        padding: 8px 7px;
+    }
+    .place-img-3 img {
+        width: 50%;
+        padding: 8px 7px;
+    }
+    .place-title h2 {
+        color: #131318;
+        text-align: center;
+        /* font-family: Mulish; */
+        font-size: 40px;        
+        font-weight: 800;
+    }
+    .place-title p{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        /* font-family: Mulish; */
+        font-size: 16px;        
+        font-weight: 400;
+        line-height: 26px;
+        padding-top: 15px;
+    }
+    /* Service-section-start */
+    
+    /* Service-section-end */
+    /* .place-images img {
+        object-fit: cover;
+    } */
+    /* place-section-end */
     .list-content{
         padding-left: 25px;
     }
+    /* last-section-start */
+    .last-section{
+        display: flex;
+        margin: 20px 80px;
+        margin-top: 80px;
+    }
+    .last-images img {
+        width: 550px;
+        object-fit: cover;
+        height: 424px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .last-content {
+        padding-right: 30px;
+    }
+    .last-content h1{
+        color: #131318;        
+        /* font-family: Mulish; */
+        font-size: 38px;
+        font-weight: 800;
+        line-height: 60px;
+        /* padding-right: 50px; */
+    }
+    .last-content-p{
+        color: #5A5A5D;
+        /* font-family: Mulish; */
+        font-size: 16px;        
+        font-weight: 400;
+        line-height: 26px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .last-content ul {
+        color: #131318;        
+        /* font-family: Mulish; */
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .last-ul-text p{
+        padding: 8px 0;
+    }
+    .last-ul-text{
+        padding: 10px 0px 10px 20px;
+    }
+    /* last-section-end */
+    /* Subscribe-section-start */
+    .Subscribe-section{
+        display: flex;
+        margin: 20px 80px;
+        margin-top: 80px;
+    }
+    .Subscribe-image{
+        position: relative;
+    }
+    .Subscribe-image img{
+        width: 642px;
+        height: 422px;
+        object-fit: cover;
+        flex-shrink: 0;
+        border-radius: 16px;
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    }
+    .Subscribe-content{
+        border-radius: 16px;
+        margin-right: 15px;
+        /* display: flex;
+        flex-direction: column; */
+        padding: 25px 40px;
+        padding-top: 40px;
+        border: 1.5px solid #FF5400;
+        /* padding: 20px; */
+    }
+    .Subscribe-content h1{
+        color: #131318;
+        /* font-family: Mulish; */
+        font-size: 30px;        
+        font-weight: 800;
+    }
+    .Subscribe-content p{
+        color: #5A5A5D;
+        /* font-family: Mulish; */
+        font-size: 16px;          
+        font-weight: 400;
+        line-height: 26px;
+        padding: 20px 0;
+    }
+    .Subscribe-input{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .Subscribe-input input {
+        margin-top: 20px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        padding: 15px 20px;
+        color: rgba(19, 19, 24, 0.30);        
+        /* font-family: Mulish; */
+        font-size: 16px;
+        font-weight: 400;
+        outline: none;
+    }
+    .Subscribe-button{
+        margin-top: 20px;
+        border-radius: 8px;
+        background: #FF5400;
+        padding: 12px 20px;
+        border: none;
+        color: #FFF;        
+        text-align: center;
+        /* font-family: Mulish; */
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .Subscribe-discount{
+        width: 220px;
+        padding: 20px 20px;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        border-radius: 9px;
+        background: #FF5400;
+        transform: rotate(-28.628deg);
+        position: absolute;
+        bottom: 13.6%;
+        left: 64.8%;
+    }
+    .Subscribe-discount p{
+        color: #FFF;
+        text-align: center;
+        /* font-family: Mulish; */
+        /* font-size: 15px; */
+        font-weight: 400;
+    }
+    .Subscribe-discount h3 {
+        color: #FFF;
+        /* font-family: Mulish; */
+         /* font-size: 22px; */
+        font-weight: 800;
+    }
+    /* Subscribe-section-end */        
     /* main-section-end-here  */
 
     /* footer-section-start-here  */
@@ -194,13 +388,13 @@ padding-left: 10px;
     }
     .footer-name{
         color: #131318;        
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 32px;
         font-weight: 800;
     }
     .spans{        
         color: #FF5400;
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 32px;
         font-weight: 800;
     }
@@ -210,19 +404,26 @@ padding-left: 10px;
     }
     .footer-section P{
         color: #5A5A5D;        
-        font-family: Mulish;
+        /* font-family: Mulish; */
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
     }
     .social{
         padding: 20px 0;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
     }
     .copyright{
         color: #131318;
-        font-family: Inter;
+        /* font-family: Inter; */
         font-size: 16px;
         font-weight: 300;
         padding-top: 40px;
+    }
+    .hide{
+        display: none;
     }
     /* footer-section-end-here */
