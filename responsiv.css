@@ -321,3 +321,96 @@
         height: 580px;
     }
 }
+@media screen and (min-width:350px) and (max-width:400px) {
+    .navbar-name{
+        font-size: 29px;
+    }
+    .span {
+        font-size: 29px;
+    }
+    .nav-name img {
+        height: 45px;
+        width: 45px;
+    }
+    .fa-bars {
+        font-size: 25px;
+    }
+    .banner-options select,.news { 
+        width: 230px;
+    }
+    .popular-content h1 {
+        font-size: 32px;
+    }
+    .place-title h2{
+        font-size: 35px;
+    }
+    .place-spical-1,.place-spical-2 {
+        left: 30%;
+    }
+    .place-spical-4{
+        left: 20%;
+    }
+    .place-spical-6,.place-spical-7{
+        left: 26%;
+    }
+    .service-offer-1 img,.service-offer-2 img,.service-offer-3 img{
+        width: 41%;
+    }
+    .discount-title h2 {
+        font-size: 34px;
+    }
+    .last-button {
+        margin: 10px 15%;
+    }
+    .last-content h1{
+        line-height: 48px;
+        font-size: 33px;
+    }
+    .last-images-title {
+        left: 7%;
+    }
+    .Subscribe-content{
+        padding: 20px 26px;
+    }
+    .Subscribe-input{
+        padding-top: 15px;
+    }
+    .Subscribe-content p{
+        line-height: 20px;
+        font-size: 15.5px;
+        padding: 15px 0;
+    }
+    .service-offer-1, .service-offer-2, .service-offer-3{
+        width: 310px;
+    }
+    .spical-offers, .spical-offers-2 {
+        width: 250px;
+        height: 310px;
+        padding: 18px;
+        height: 300px;
+        margin: 10px 35px;
+    }
+    .spical-offers-2 h3, .spical-offers h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .spical-offers-2 h4, .spical-offers h4 {
+        font-size: 16px;
+    }
+    .spical-offers p, .spical-offers-2 p {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .older {
+        width: 175px;
+    }
+    .spical-offers-2{
+        height: 280px;
+    }
+    .discount-image-2 img,.discount-image img {
+        height: 595px;
+    }
+    .banner-title {
+        font-size: 44px;
+    }
+}
