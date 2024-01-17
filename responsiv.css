@@ -6,12 +6,38 @@
     }
     .nav-name{
         padding: 0 30px;
+        gap: 5px;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .offer-span{
+        display: none;
+    }
+    .nav-spical{
+        padding: 10px 5px;
+    }
+    .nav-icon {
+        display: block;
+        /* width: 24px;
+        height: 24px; */
+    }
+    .fa-bars{
+        font-size: 30px;
     }
     .nav-menu{
         flex-direction: column;
         align-content: flex-start;
         margin-top: 15px;
         gap: 20px;
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+    .fa-solid{
+
     }
     /* header-section-end-here   */
     /* main-section-start-here   */
@@ -28,10 +54,13 @@
         margin-top: 20px;
     }
     .Subscribe-discount{
-        left: 41.4%;
+
+        left: 30.4%;
         bottom: 10.6%;
+        right: 0%;
         transform: rotate(-24.628deg);
     }
+    
     /* Subscribe-section-end */
     /* last-section-start */
     .last-section{
@@ -58,7 +87,7 @@
         bottom: 7%;
         left: 0%;
         margin: 10px 25px;
-        width: 320px;
+        width: 288px;
     }
     .popular-content h1 {
         font-size: 35px;
@@ -71,7 +100,7 @@
         bottom: 7%;
         left: 0%;
         margin: 10px 25px;
-        width: 320px;
+        width: 288px;
         display: block;
     }
     .last-button {
@@ -85,7 +114,7 @@
     }
     .service-offer-1, .service-offer-2, .service-offer-3 {
         margin: 10px 30px;
-        width: 380px;
+        width: 330px;
     }
     .service-message p{
         padding: 10px 20px;
@@ -122,6 +151,7 @@
     .popular-image img{
         width: 100%;
         margin-top: 20px;
+        height: 80%;
     }
     /* popular-section-end */
     /* banner-section-start */
@@ -141,7 +171,7 @@
         padding: 20px 10px;
     }
     .banner-options select{
-        width: 284px;
+        width: 270px;
         height: 52px;
     }
     .banner-button{
@@ -154,7 +184,7 @@
         font-size: 38px;
     }
     .news{
-        width: 284px;
+        width: 270px;
         height: 52px;
     }
     .banner-sub-title {
