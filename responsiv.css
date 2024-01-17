@@ -55,9 +55,9 @@
     }
     .Subscribe-discount{
 
-        left: 30.4%;
+        /* left: 30.4%; */
         bottom: 10.6%;
-        right: 0%;
+        right: 2%;
         transform: rotate(-24.628deg);
     }
     
@@ -200,4 +200,124 @@
         padding: 50px 40px;
     }
     /* footer-section-end-here */
+}
+@media screen and (max-width:350px) {
+    .navbar-name{
+        font-size: 28px;
+    }
+    .span{
+        font-size: 28px;
+    }
+    .nav-name img{
+        height: 40px;
+        width: 40px;
+        
+    }
+    .nav-spical {
+        display: flex;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-name {
+        gap: 1px;
+    }
+    .fa-bars{
+        font-size: 25px;
+    }
+    .banner-options select{
+        width: 220px;
+    }
+    .news{
+        width: 220px;
+    }
+    .banner-options{
+        padding: 10px;
+    }
+    .images-3 img,.images-5{
+        height: 240px;
+    }
+    .place-spical-4{
+        left: 13%;
+    }
+    .place-spical-2,.place-spical-1,{
+        left: 30%;
+    }
+    .place-spical-7{
+        left: 25%;
+    }
+    .images-6 img{
+        padding: 15px 7px;
+    }
+    .service-message h2{
+        font-size: 33px;
+    }
+    .service-offer-1, .service-offer-2, .service-offer-3 {
+        width: 290px;
+    }
+    .service-offer-1 img,.service-offer-2 img,.service-offer-3 img{
+        width: 40%;
+    }
+    .discount-title h2{
+        font-size: 32px;
+    }
+    .spical-offers,.spical-offers-2{
+        width: 240px;
+        height: 310px;
+        padding: 18px;
+        /* height: 340px; */
+    }
+    .older{
+        width: 170px;
+    }
+    .spical-offers-2 h3,.spical-offers h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .spical-offers p,.spical-offers-2 p {
+        line-height: 20px;
+    }
+    .spical-offers-2 h4,.spical-offers h4{
+        font-size: 15px;
+    }
+    .last-button{
+        margin: 10px 10%;
+    }
+    .last-content h1{
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .last-images-title {
+        left: 10%;
+        font-size: 13px;
+    }
+    .Subscribe-input{
+        padding-top: 2px;
+    }
+    .Subscribe-content {
+        padding-top: 20px;
+    }
+    .Subscribe-content p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .Subscribe-button{
+        margin-top: 15px;
+    }
+    .Subscribe-content{
+        padding: 18px 20px;
+    }
+    .Subscribe-image img {
+        height: 340px;
+    }
+    .Subscribe-discount {
+        bottom: 11.5%;
+        width: 200px;
+    }
+    .discount-image-2 img {
+        height: 580px;
+    }
+    .discount-image img{
+        height: 580px;
+    }
 }

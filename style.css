@@ -739,7 +739,8 @@ padding-left: 10px;
         transform: rotate(-28.628deg);
         position: absolute;
         bottom: 13.6%;
-        left: 64.8%;
+        right: 1%;
+        /* left: 64.8%; */
         transition: 1.5s;
         cursor: pointer;
     }
